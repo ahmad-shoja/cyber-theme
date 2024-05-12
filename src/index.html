@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="../dist/index.css" />
     <script src="./assets/js/index.js"></script>
   </head>
-  <body>
-    <div class="w-28 h-28 bg-pink-600"></div>
+
+  <body class="dark:bg-slate-900">
+    <header class="bg-white py-4 flex justify-center">
+      <div class="container flex justify-between items-center">
+        <div class="logo">
+          <img class="h-6" src="./assets/img/logo.svg" alt="Logo" />
+        </div>
+        <div class="search">
+          <div class="searchField w-80 h-14 p-4 bg-neutral-100 rounded-lg flex gap-2">
+            <img src="./assets/img/search.svg" alt="Search" />
+            <input type="text" placeholder="Search" class="bg-transparent outline-none w-full" />
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="links flex gap-x-12">
+            <a href="#" class="font-medium text-base">Home</a>
+            <a href="#" class="font-medium text-base text-zinc-400">About</a>
+            <a href="#" class="font-medium text-base text-zinc-400">Contact Us</a>
+            <a href="#" class="font-medium text-base text-zinc-400">Blog</a>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="flex gap-x-6">
+            <img src="./assets/img/favorites.svg" alt="Favorites" />
+            <img src="./assets/img/cart.svg" alt="Cart" />
+            <img src="./assets/img/user.svg" alt="User" />
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
