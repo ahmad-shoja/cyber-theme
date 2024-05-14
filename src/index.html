@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,34 +8,45 @@
     <script src="./assets/js/index.js"></script>
   </head>
 
-  <body class="dark:bg-slate-900">
-    <header class="bg-white py-4 flex justify-center">
-      <div class="container flex justify-between items-center">
+  <body class="dark:bg-slate-50 ">
+    <header class="bg-white py-4 flex justify-center border-b border-gray-light w-full">
+      <div class="container flex justify-between items-center w-full px-6">
         <div class="logo">
           <img class="h-6" src="./assets/img/logo.svg" alt="Logo" />
         </div>
         <div class="search">
-          <div class="searchField w-80 h-14 p-4 bg-neutral-100 rounded-lg flex gap-2">
+          <div class="searchField w-60 lg:w-80 h-14 p-4 bg-gray-base rounded-lg gap-2 flex">
             <img src="./assets/img/search.svg" alt="Search" />
             <input type="text" placeholder="Search" class="bg-transparent outline-none w-full" />
           </div>
         </div>
-        <div class="navigation">
+        <div class="navigation hidden md:block">
           <div class="links flex gap-x-12">
-            <a href="#" class="font-medium text-base">Home</a>
-            <a href="#" class="font-medium text-base text-zinc-400">About</a>
-            <a href="#" class="font-medium text-base text-zinc-400">Contact Us</a>
-            <a href="#" class="font-medium text-base text-zinc-400">Blog</a>
+            <a href="#" class="font-medium text-typography-title">Home</a>
+            <a href="#" class="font-medium text-base text-typography-subdued">About</a>
+            <a href="#" class="font-medium text-base text-typography-subdued">Contact Us</a>
+            <a href="#" class="font-medium text-base text-typography-subdued">Blog</a>
           </div>
         </div>
-        <div class="icons">
+        <div class="icons hidden md:block">
           <div class="flex gap-x-6">
-            <img src="./assets/img/favorites.svg" alt="Favorites" />
-            <img src="./assets/img/cart.svg" alt="Cart" />
-            <img src="./assets/img/user.svg" alt="User" />
+            <a href="#"><img src="./assets/img/favorites.svg" alt="Favorites" /></a>
+            <a href="#"><img src="./assets/img/cart.svg" alt="Cart" /></a>
+            <a href="#"><img src="./assets/img/user.svg" alt="User" /></a>
           </div>
+        </div>
+        <div class="humberger-menu block md:hidden">
+          <a href="#"><img src="./assets/img/humberger.svg" alt="Menu" /></a>
         </div>
       </div>
     </header>
+
+    <div class="banners flex flex-col w-full">
+      <div class="banner large wide md:h-[50vh] h-screen w-full bg-[#211c24]"></div>
+    </div>
   </body>
+</html>
+
+</html>
+
 </html>
