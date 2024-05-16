@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="overflow-hidden">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,13 +8,13 @@
     <script src="./assets/js/index.js"></script>
   </head>
 
-  <body class="dark:bg-slate-50">
-    <header class="bg-white py-4 flex justify-center border-b border-gray-light w-full">
+  <body class="dark:bg-slate-50 overflow-hidden">
+    <header class="bg-white px-4 py-6 flex justify-center border-b border-gray-light w-full">
       <div class="container flex justify-between items-center w-full px-160">
         <div class="logo">
           <img class="h-6" src="./assets/img/logo.svg" alt="Logo" />
         </div>
-        <div class="search">
+        <div class="search hidden md:block">
           <div class="searchField w-60 lg:w-80 h-14 p-4 bg-gray-base rounded-lg gap-2 flex">
             <img src="./assets/img/search.svg" alt="Search" />
             <input type="text" placeholder="Search" class="bg-transparent outline-none w-full" />
@@ -42,20 +42,25 @@
     </header>
 
     <div class="banners flex flex-col w-full">
-      <div class="banner large wide md:h-auto h-screen w-full bg-[#211c24] flex flex-row justify-between px-40">
-        <div class="content flex flex-col gap-6 justify-center">
-          <p class="text-[#7a777c] font-semibold text-2xl">Pro.Beyond.</p>
-          <p class="text-8xl text-white">
+      <div
+        class="banner large wide md:h-70v h-screen w-full bg-[#211c24] flex md:flex-row flex-col justify-between md:px-40 md:pt-0 px-4 pt-20"
+      >
+        <div class="content flex flex-col md:gap-x-8 gap-y-6 justify-center md:items-start items-center">
+          <p class="text-[#7a777c] font-semibold text-2xl md:text-start text-center">Pro.Beyond.</p>
+          <p class="text-8xl text-white md:text-start text-center">
             <span class="font-thin">IPhone 14</span>
             <span class="font-semibold">Pro</span>
           </p>
-          <p class="text-[#909090] font-medium text-lg">Created to change everything for the better. For everyone</p>
+          <p class="text-[#909090] font-medium text-lg md:text-start text-center">
+            Created to change everything for the better. For everyone
+          </p>
           <div class="shop-now-button cursor-pointer border-white border rounded-lg px-14 py-4 w-fit">
             <p class="font-medium text-white text-base text-center">Shop Now</p>
           </div>
         </div>
-
-        <img src="./assets/img/iphoneImage.png" alt="iPhone Image" class="" />
+        <div class="md:mt-20 overflow-y-hidden">
+          <img src="./assets/img/iphoneImage.png" alt="iPhone Image" class="w-full" />
+        </div>
       </div>
     </div>
   </body>
