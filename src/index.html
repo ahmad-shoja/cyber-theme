@@ -65,24 +65,54 @@
         </div>
       </div>
 
-      <div class="flex flex-row">
-        <div class="w-[50vw] h-[25vw]">
-          <div class="banner w-full h-full flex flex-row bg-blue-50 gap-8 pr-12">
-            <div class="cropper h-full w-1/3 overflow-hidden">
+      <div class="flex flex-col md:flex-row">
+        <div class="flex flex-col md:flex-row w-full md:w-1/2 ">
+          <div class="banner w-full pt-[100%] md:pt-[50%] relative">
+            <div class="content w-full h-full absolute top-0 flex flex-col md:flex-row p-10 md:p-0 gap-6">
+              <div class="cropper overflow-hidden flex justify-center" >
               <img
                 src="./assets/img/PlayStation.png"
                 alt="PlayStation"
-                class="h-full object-cover -translate-x-1/3 translate-y-4 max-w-none right-0"
+                class="object-cover md:-translate-x-3 "
               />
-            </div>
-            <div class="content flex flex-col md:gap-x-8 gap-y-6 justify-center md:items-start items-center w-2/3">
-              <p class="text-5xl text-black md:text-start text-center">Playstation 5</p>
-              <p class="text-[#909090] font-medium text-sm md:text-start text-center">
-                Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation
-                experience.
-              </p>
+              </div>
+              <div class="content flex flex-col gap-6 justify-center md:items-start items-center w-full ">
+                <p class="md:text-5xl text-4xl text-black md:text-start text-center">
+                  <span class="font-light">Playstation</span> 
+                  <span class="font-bold">5</span>
+                </p>
+                <p class="text-[#909090] font-medium text-sm md:text-start text-center">
+                  Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation
+                  experience.
+                </p>
+              </div>
             </div>
           </div>
+  
+        </div>
+        <div class="flex flex-col md:flex-row w-full md:w-1/2 ">
+          <div class="banner w-full pt-[100%] md:pt-[50%] relative">
+            <div class="content w-full h-full absolute top-0 flex flex-col md:flex-row p-10 md:p-0 gap-6">
+              <div class="cropper overflow-hidden flex justify-center" >
+              <img
+                src="./assets/img/PlayStation.png"
+                alt="PlayStation"
+                class="object-cover md:-translate-x-3"
+              />
+              </div>
+              <div class="content flex flex-col gap-6 justify-center md:items-start items-center w-full ">
+                <p class="md:text-5xl text-4xl text-black md:text-start text-center">
+                  <span class="font-light">Playstation</span> 
+                  <span class="font-bold">5</span>
+                </p>
+                <p class="text-[#909090] font-medium text-sm md:text-start text-center">
+                  Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+  
         </div>
       </div>
     </div>
