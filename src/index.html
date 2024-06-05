@@ -234,7 +234,9 @@
       </div>
     </div>
 
-    <div class="category flex flex-col w-full md:px-40 px-4 md:py-20 py-16 gap-y-8">
+    <div
+      class="category flex flex-col w-full md:px-40 px-4 md:py-20 py-16 gap-y-8 bg-[#fafafa]"
+    >
       <div class="title flex flex-row justify-between items-center">
         <p class="text-2xl">Browse By Category</p>
 
@@ -265,30 +267,226 @@
           </svg>
         </div>
       </div>
-      <div class="cards flex flex-row gap-8 flex-wrap justify-center  ">
-        <div class=" card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40">
+      <div class="cards flex flex-row gap-8 flex-wrap justify-center">
+        <div
+          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+        >
           <img src="./assets/img/phone-ic.png" alt="phones" class="size-12" />
           <p class="text-wrap text-center">Phones</p>
         </div>
-        <div class=" card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40">
+        <div
+          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+        >
           <img src="./assets/img/watches-ic.png" alt="phones" class="size-12" />
           <p class="text-wrap text-center">Smart Watches</p>
         </div>
-        <div class=" card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40">
+        <div
+          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+        >
           <img src="./assets/img/camera-ic.png" alt="phones" class="size-12" />
           <p class="text-wrap text-center">Cameras</p>
         </div>
-        <div class=" card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40">
-          <img src="./assets/img/headphone-ic.png" alt="phones" class="size-12" />
+        <div
+          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+        >
+          <img
+            src="./assets/img/headphone-ic.png"
+            alt="phones"
+            class="size-12"
+          />
           <p class="text-wrap text-center">Headphones</p>
         </div>
-        <div class=" card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40">
-          <img src="./assets/img/computers-ic.png" alt="phones" class="size-12" />
+        <div
+          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+        >
+          <img
+            src="./assets/img/computers-ic.png"
+            alt="phones"
+            class="size-12"
+          />
           <p class="text-wrap text-center">Computers</p>
         </div>
-        <div class=" card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40">
+        <div
+          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+        >
           <img src="./assets/img/console-ic.png" alt="phones" class="size-12" />
           <p class="text-wrap text-center">Gaming</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="products py-14 md:px-40 px-4 flex flex-col gap-8">
+      <div class="title flex flex-row gap-x-8">
+        <p class="cursor-pointer text-black text-base md:text-lg">
+          New Arrival
+        </p>
+        <p class="cursor-pointer text-[#8B8B8B] text-base md:text-lg">
+          Bestseller
+        </p>
+        <p class="cursor-pointer text-[#8B8B8B] text-base md:text-lg">
+          Featured Products
+        </p>
+      </div>
+
+      <div class="flex flex-wrap">
+        <div class="w-1/2 md:w-1/4 p-2 items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-center items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-iphone.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)
+              </p>
+            </div>
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$900</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 p-2 items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-center items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-applewatch.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Apple Watch Series 9 GPS 41mm Starlight Aluminium Case
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$399</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 p-2 items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-center items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-camera.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Blackmagic Pocket Cinema Camera 6k
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$2535</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 p-2 flex items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-between items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-airpods.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                AirPods Max Silver
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$549</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
