@@ -110,7 +110,7 @@
                 ></div>
 
                 <div
-                  class="content flex flex-col gap-6 justify-center md:items-start items-center md:w-1/3"
+                  class="content flex flex-col gap-6 justify-center md:items-start items-center md:w-2/3"
                 >
                   <p
                     class="md:text-5xl text-4xl text-black md:text-start text-center"
@@ -139,7 +139,7 @@
                   ></div>
 
                   <div
-                    class="content flex flex-col gap-6 justify-center md:items-start items-center md:w-1/2"
+                    class="content flex flex-col gap-6 justify-center md:items-start items-center md:w-2/3"
                   >
                     <p
                       class="md:text-3xl text-4xl text-black md:text-start text-center"
@@ -171,7 +171,7 @@
                   ></div>
 
                   <div
-                    class="content flex flex-col gap-6 justify-center md:items-start items-center md:w-1/2"
+                    class="content flex flex-col gap-6 justify-center md:items-start items-center md:w-2/3"
                   >
                     <p
                       class="md:text-3xl text-4xl text-white md:text-start text-center"
@@ -216,7 +216,7 @@
                   love with a spacious Liquid Retina display.
                 </p>
                 <div
-                  class="shop-now-button cursor-pointer border-2 border-black rounded-lg px-14 py-4 md:w-fit w-full"
+                  class="shop-now-button cursor-pointer border-2 border-black rounded-lg px-8 py-4 md:w-fit w-full"
                 >
                   <p class="font-medium text-black text-base text-center">
                     Shop Now
@@ -235,82 +235,98 @@
     </div>
 
     <div
-      class="category flex flex-col w-full md:px-40 px-4 md:py-20 py-16 gap-y-8 bg-[#fafafa]"
+      class="category flex flex-col w-full md:px-8 px-4 md:py-20 py-16 bg-[#fafafa] items-center"
     >
-      <div class="title flex flex-row justify-between items-center">
-        <p class="text-2xl">Browse By Category</p>
+      <div class="w-fit gap-y-8 flex flex-col">
+        <div class="title flex flex-row justify-between items-center flex-1">
+          <p class="text-2xl">Browse By Category</p>
 
-        <div class="flex flex-row">
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          <div class="flex flex-row">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.3333 27.6667C21.0678 27.6679 20.8131 27.5622 20.6266 27.3733L9.95993 16.7067C9.57 16.3162 9.57 15.6838 9.95993 15.2933L20.6266 4.62667C21.0206 4.25952 21.6346 4.27035 22.0154 4.65117C22.3962 5.03199 22.4071 5.64599 22.0399 6.04L12.0799 16L22.0399 25.96C22.4299 26.3504 22.4299 26.9829 22.0399 27.3733C21.8534 27.5622 21.5987 27.6679 21.3333 27.6667Z"
+                fill="black"
+              />
+            </svg>
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.6667 4.33333C10.9322 4.33208 11.1869 4.43782 11.3734 4.62667L22.0401 15.2933C22.43 15.6838 22.43 16.3162 22.0401 16.7067L11.3734 27.3733C10.9794 27.7405 10.3654 27.7296 9.98457 27.3488C9.60375 26.968 9.59292 26.354 9.96007 25.96L19.9201 16L9.96007 6.04C9.57013 5.64958 9.57013 5.01709 9.96007 4.62667C10.1466 4.43782 10.4013 4.33208 10.6667 4.33333Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="cards flex flex-row flex-wrap gap-8 w-fit justify-center md:justify-start"
+        >
+          <div
+            class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
           >
-            <path
-              d="M21.3333 27.6667C21.0678 27.6679 20.8131 27.5622 20.6266 27.3733L9.95993 16.7067C9.57 16.3162 9.57 15.6838 9.95993 15.2933L20.6266 4.62667C21.0206 4.25952 21.6346 4.27035 22.0154 4.65117C22.3962 5.03199 22.4071 5.64599 22.0399 6.04L12.0799 16L22.0399 25.96C22.4299 26.3504 22.4299 26.9829 22.0399 27.3733C21.8534 27.5622 21.5987 27.6679 21.3333 27.6667Z"
-              fill="black"
-            />
-          </svg>
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            <img src="./assets/img/phone-ic.png" alt="phones" class="size-12" />
+            <p class="text-wrap text-center">Phones</p>
+          </div>
+          <div
+            class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
           >
-            <path
-              d="M10.6667 4.33333C10.9322 4.33208 11.1869 4.43782 11.3734 4.62667L22.0401 15.2933C22.43 15.6838 22.43 16.3162 22.0401 16.7067L11.3734 27.3733C10.9794 27.7405 10.3654 27.7296 9.98457 27.3488C9.60375 26.968 9.59292 26.354 9.96007 25.96L19.9201 16L9.96007 6.04C9.57013 5.64958 9.57013 5.01709 9.96007 4.62667C10.1466 4.43782 10.4013 4.33208 10.6667 4.33333Z"
-              fill="black"
+            <img
+              src="./assets/img/watches-ic.png"
+              alt="phones"
+              class="size-12"
             />
-          </svg>
-        </div>
-      </div>
-      <div class="cards flex flex-row gap-8 flex-wrap justify-center">
-        <div
-          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
-        >
-          <img src="./assets/img/phone-ic.png" alt="phones" class="size-12" />
-          <p class="text-wrap text-center">Phones</p>
-        </div>
-        <div
-          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
-        >
-          <img src="./assets/img/watches-ic.png" alt="phones" class="size-12" />
-          <p class="text-wrap text-center">Smart Watches</p>
-        </div>
-        <div
-          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
-        >
-          <img src="./assets/img/camera-ic.png" alt="phones" class="size-12" />
-          <p class="text-wrap text-center">Cameras</p>
-        </div>
-        <div
-          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
-        >
-          <img
-            src="./assets/img/headphone-ic.png"
-            alt="phones"
-            class="size-12"
-          />
-          <p class="text-wrap text-center">Headphones</p>
-        </div>
-        <div
-          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
-        >
-          <img
-            src="./assets/img/computers-ic.png"
-            alt="phones"
-            class="size-12"
-          />
-          <p class="text-wrap text-center">Computers</p>
-        </div>
-        <div
-          class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
-        >
-          <img src="./assets/img/console-ic.png" alt="phones" class="size-12" />
-          <p class="text-wrap text-center">Gaming</p>
+            <p class="text-wrap text-center">Smart Watches</p>
+          </div>
+          <div
+            class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+          >
+            <img
+              src="./assets/img/camera-ic.png"
+              alt="phones"
+              class="size-12"
+            />
+            <p class="text-wrap text-center">Cameras</p>
+          </div>
+          <div
+            class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+          >
+            <img
+              src="./assets/img/headphone-ic.png"
+              alt="phones"
+              class="size-12"
+            />
+            <p class="text-wrap text-center">Headphones</p>
+          </div>
+          <div
+            class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+          >
+            <img
+              src="./assets/img/computers-ic.png"
+              alt="phones"
+              class="size-12"
+            />
+            <p class="text-wrap text-center">Computers</p>
+          </div>
+          <div
+            class="card flex flex-col py-6 px-12 rounded-2xl bg-[#ededed] gap-2 justify-center items-center w-40"
+          >
+            <img
+              src="./assets/img/console-ic.png"
+              alt="phones"
+              class="size-12"
+            />
+            <p class="text-wrap text-center">Gaming</p>
+          </div>
         </div>
       </div>
     </div>
@@ -362,7 +378,7 @@
             <div class="flex flex-col gap-4">
               <p class="text-black text-2xl font-semibold text-center">$900</p>
 
-              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
                 <p class="text-white text-center">Buy Now</p>
               </div>
             </div>
@@ -402,7 +418,7 @@
             <div class="flex flex-col gap-4">
               <p class="text-black text-2xl font-semibold text-center">$399</p>
 
-              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
                 <p class="text-white text-center">Buy Now</p>
               </div>
             </div>
@@ -442,7 +458,7 @@
             <div class="flex flex-col gap-4">
               <p class="text-black text-2xl font-semibold text-center">$2535</p>
 
-              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
                 <p class="text-white text-center">Buy Now</p>
               </div>
             </div>
@@ -482,9 +498,289 @@
             <div class="flex flex-col gap-4">
               <p class="text-black text-2xl font-semibold text-center">$549</p>
 
-              <div class="button bg-black rounded-lg py-3 w-fit px-14">
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
                 <p class="text-white text-center">Buy Now</p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 p-2 flex items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-between items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-galaxy-watch.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Samsung Galaxy Watch6 Classic 47mm Black
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$369</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/2 md:w-1/4 p-2 flex items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-between items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5442L15.3152 27.3567C15.6397 27.6615 15.8019 27.8139 15.9999 27.8139C16.1979 27.8139 16.3602 27.6615 16.6846 27.3567L26.0657 18.5442C28.6739 16.094 28.9907 12.0621 26.797 9.23467L26.3845 8.70304C23.7603 5.32069 18.4928 5.88794 16.6488 9.75145C16.3883 10.2972 15.6115 10.2972 15.351 9.75145C13.5071 5.88794 8.23955 5.32069 5.61531 8.70304L5.20284 9.23467C3.00918 12.0621 3.32592 16.094 5.93415 18.5442Z"
+                    fill="#FF0000"
+                    stroke="#FF0000"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-zfold.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Galaxy Z Fold5 Unlocked | 256GB | Phantom Black
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$1799</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/2 md:w-1/4 p-2 flex items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-between items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-buds.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Galaxy Buds FE Graphite
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">
+                $99.99
+              </p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 p-2 flex items-stretch">
+          <div
+            class="card bg-[#f6f6f6] rounded-lg p-4 flex flex-col gap-y-6 justify-between items-center h-full"
+          >
+            <div
+              class="content flex flex-col gap-4 justify-center items-center"
+            >
+              <div class="flex flex-row justify-end w-full">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93415 18.5443L15.3152 27.3569C15.6397 27.6616 15.8019 27.814 15.9999 27.814C16.1979 27.814 16.3602 27.6616 16.6846 27.3569L26.0657 18.5443C28.6739 16.0942 28.9907 12.0622 26.797 9.2348L26.3845 8.70316C23.7603 5.32081 18.4928 5.88806 16.6488 9.75157C16.3883 10.2973 15.6115 10.2973 15.351 9.75157C13.5071 5.88806 8.23955 5.32081 5.61531 8.70316L5.20284 9.2348C3.00918 12.0622 3.32592 16.0942 5.93415 18.5443Z"
+                    stroke="#919191"
+                    stroke-opacity="0.77"
+                    stroke-width="1.4"
+                  />
+                </svg>
+              </div>
+
+              <img src="./assets/img/p-ipad.png" alt="iphone" />
+
+              <p class="text-black text-center text-base font-medium">
+                Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <p class="text-black text-2xl font-semibold text-center">$398</p>
+
+              <div class="button bg-black rounded-lg py-3 w-fit px-12">
+                <p class="text-white text-center">Buy Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banners flex w-full">
+      <div
+        class="pagination flex justify-center items-center gap-2 mb-14 absolute z-10 md:hidden w-full self-end"
+      >
+        <div
+          class="page rounded-full bg-black size-2 flex justify-center items-center"
+        ></div>
+        <div
+          class="page rounded-full bg-[#e0e0e0] size-2 flex justify-center items-center"
+        ></div>
+        <div
+          class="page rounded-full bg-[#e0e0e0] size-2 flex justify-center items-center"
+        ></div>
+        <div
+          class="page rounded-full bg-[#e0e0e0] size-2 flex justify-center items-center"
+        ></div>
+      </div>
+
+      <div
+        class="banner flex flex-col gap-y-4 md:w-1/4 w-full pt-[150%] md:pt-[45%] relative bg-[#ffffff] shrink-0"
+      >
+        <div class="wrapper absolute w-full h-full top-0 gap-4">
+          <div
+            class="image w-full h-1/2 bg-contain bg-center bg-no-repeat"
+            style="background-image: url('./assets/img/popularProducts-1.png')"
+          ></div>
+          <div
+            class="content h-1/2 flex flex-col items-center md:items-start gap-4 mx-8 md:justify-between pb-14"
+          >
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <p class="md:text-3xl text-5xl ">Popular Products</p>
+              <p class="text-sm">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
+              </p>
+            </div>
+            <div class="border-2 border-black rounded-md py-3 px-12">
+              <p class="font-medium text-base">Shop Now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="banner flex flex-col gap-y-4 md:w-1/4 w-full pt-[150%] md:pt-[45%] relative bg-[#f9f9f9] shrink-0"
+      >
+        <div class="wrapper absolute w-full h-full top-0 gap-4">
+          <div
+            class="image w-full h-1/2 bg-contain bg-center bg-no-repeat"
+            style="background-image: url('./assets/img/popularProducts-2.png')"
+          ></div>
+          <div
+            class="content h-1/2 flex flex-col items-center md:items-start gap-4 mx-8 justify-between pb-14"
+          >
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <p class="text-3xl">Ipad Pro</p>
+              <p class="text-sm">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
+              </p>
+            </div>
+            <div class="border-2 border-black rounded-md py-3 px-12">
+              <p class="font-medium text-base">Shop Now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="banner flex flex-col gap-y-4 md:w-1/4 w-full pt-[150%] md:pt-[45%] relative bg-[#eaeaea] shrink-0"
+      >
+        <div class="wrapper absolute w-full h-full top-0 gap-4">
+          <div
+            class="image w-full h-1/2 bg-contain bg-center bg-no-repeat"
+            style="background-image: url('./assets/img/popularProducts-3.png')"
+          ></div>
+          <div
+            class="content h-1/2 flex flex-col items-center md:items-start gap-4 mx-8 justify-between pb-14"
+          >
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <p class="text-3xl">Samsung Galaxy</p>
+              <p class="text-sm">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
+              </p>
+            </div>
+            <div class="border-2 border-black rounded-md py-3 px-12">
+              <p class="font-medium text-base">Shop Now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="banner flex flex-col gap-y-4 md:w-1/4 w-full pt-[150%] md:pt-[45%] relative bg-[#2c2c2c] shrink-0"
+      >
+        <div class="wrapper absolute w-full h-full top-0 gap-4">
+          <div
+            class="image w-full h-1/2 bg-contain bg-center bg-no-repeat"
+            style="background-image: url('./assets/img/popularProducts-4.png')"
+          ></div>
+          <div
+            class="content h-1/2 flex flex-col items-center md:items-start gap-4 mx-8 justify-between pb-14"
+          >
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <p class="text-3xl text-white">Macbook Pro</p>
+              <p class="text-sm text-[#909090]">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
+              </p>
+            </div>
+            <div class="border-2 border-white rounded-md py-3 px-12">
+              <p class="font-medium text-base text-white">Shop Now</p>
             </div>
           </div>
         </div>
