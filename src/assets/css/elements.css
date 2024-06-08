@@ -1,0 +1,27 @@
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control > input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+
+.form-control > input[type="checkbox"]:checked {
+  background-color: black;
+  border: none;
+}
+
+.form-control > input[type="checkbox"]:after {
+  content: url('data:image/svg+xml;charset=utf8,<svg width="18" height="18" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.999919 3.66667L1.56634 4.09148C1.99503 4.413 2.60097 4.33946 2.9403 3.92472L5.33325 1" stroke="white" stroke-linecap="round"/></svg>');
+  display: flex;
+  padding-top: 5px;
+  padding-left: 8px;
+  justify-content: center;
+  align-items: center;
+}

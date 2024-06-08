@@ -16,36 +16,22 @@
           <img class="h-6" src="./assets/img/logo.svg" alt="Logo" />
         </div>
         <div class="search hidden md:block">
-          <div
-            class="searchField w-60 lg:w-80 h-14 p-4 bg-gray-base rounded-lg gap-2 flex"
-          >
+          <div class="searchField w-60 lg:w-80 h-14 p-4 bg-gray-base rounded-lg gap-2 flex">
             <img src="./assets/img/search.svg" alt="Search" />
-            <input
-              type="text"
-              placeholder="Search"
-              class="bg-transparent outline-none w-full"
-            />
+            <input type="text" placeholder="Search" class="bg-transparent outline-none w-full" />
           </div>
         </div>
         <div class="navigation hidden md:block">
           <div class="links flex gap-x-12">
             <a href="#" class="font-medium text-typography-title">Home</a>
-            <a href="#" class="font-medium text-base text-typography-subdued"
-              >About</a
-            >
-            <a href="#" class="font-medium text-base text-typography-subdued"
-              >Contact Us</a
-            >
-            <a href="#" class="font-medium text-base text-typography-subdued"
-              >Blog</a
-            >
+            <a href="#" class="font-medium text-base text-typography-subdued">About</a>
+            <a href="#" class="font-medium text-base text-typography-subdued">Contact Us</a>
+            <a href="#" class="font-medium text-base text-typography-subdued">Blog</a>
           </div>
         </div>
         <div class="icons hidden md:block">
           <div class="flex gap-x-6">
-            <a href="#"
-              ><img src="./assets/img/favorites.svg" alt="Favorites"
-            /></a>
+            <a href="#"><img src="./assets/img/favorites.svg" alt="Favorites" /></a>
             <a href="#"><img src="./assets/img/cart.svg" alt="Cart" /></a>
             <a href="#"><img src="./assets/img/user.svg" alt="User" /></a>
           </div>
@@ -56,9 +42,7 @@
       </div>
     </header>
 
-    <div
-      class="breadcrumbs w-full py-10 px-40 md:flex hidden flex-row items-center gap-x-4"
-    >
+    <div class="breadcrumbs w-full py-10 px-40 md:flex hidden flex-row items-center gap-x-4">
       <span class="font-medium text-typography-subdued"> Home </span>
       <svg width="8" height="14" viewBox="0 0 8 14" fill="none">
         <path d="M1 1L7 7L1 13" stroke="#A4A4A4" />
@@ -71,13 +55,138 @@
     </div>
 
     <div class="flex px-4 md:px-40 py-10 md:py-6 w-full gap-8">
-      <div class="bg-slate-500 w-1/4 h-80 md:flex hidden"></div>
+      <div class="w-1/4 md:flex hidden flex-col gap-y-6">
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Brand</p>
+            <img src="./assets/img/chevron-up.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex flex-col">
+            <div class="search hidden md:block">
+              <div class="searchField w-full py-2 px-4 bg-gray-base rounded-lg gap-2 flex">
+                <img src="./assets/img/search.svg" alt="Search" />
+                <input type="text" placeholder="Search" class="bg-transparent outline-none w-full text-sm" />
+              </div>
+            </div>
+            <div class="wrapper flex flex-col gap-y-2">
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="Apple" id="apple" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Apple</span>
+                  <span class="text-xs text-typography-subdued">120</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="Samsung" id="samsung" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Samsung</span>
+                  <span class="text-xs text-typography-subdued">130</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="xiami" id="xiami" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Xiaomi</span>
+                  <span class="text-xs text-typography-subdued">140</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="poco" id="poco" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Poco</span>
+                  <span class="text-xs text-typography-subdued">150</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="Oppo" id="oppo" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">OPPO</span>
+                  <span class="text-xs text-typography-subdued">160</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="honor" id="honor" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Honor</span>
+                  <span class="text-xs text-typography-subdued">170</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="motorola" id="motorola" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Motorola</span>
+                  <span class="text-xs text-typography-subdued">180</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="nokia" id="nokia" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Nokia</span>
+                  <span class="text-xs text-typography-subdued">190</span>
+                </p>
+              </div>
+              <div class="flex flex-row gap-x-4 items-center">
+                <div class="form-control"><input type="checkbox" name="realme" id="realme" /></div>
+                <p class="pt-1">
+                  <span class="text-base font-medium">Realme</span>
+                  <span class="text-xs text-typography-subdued">200</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Brand</p>
+            <img src="./assets/img/chevron-down.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex-col hidden"></div>
+        </div>
+
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Battery capacity</p>
+            <img src="./assets/img/chevron-down.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex-col hidden"></div>
+        </div>
+
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Screen type</p>
+            <img src="./assets/img/chevron-down.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex-col hidden"></div>
+        </div>
+
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Screen diagonal</p>
+            <img src="./assets/img/chevron-down.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex-col hidden"></div>
+        </div>
+
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Protection class</p>
+            <img src="./assets/img/chevron-down.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex-col hidden"></div>
+        </div>
+
+        <div class="select flex flex-col gap-y-4">
+          <div class="activator py-3 flex justify-between items-center border-b border-[#b5b5b5]">
+            <p class="font-medium text-black">Built-in memory</p>
+            <img src="./assets/img/chevron-down.svg" alt="Chevron Up" />
+          </div>
+          <div class="content gap-y-4 flex-col hidden"></div>
+        </div>
+      </div>
       <div class="bg-slate-500 flex-grow h-80"></div>
     </div>
 
-    <div
-      class="footer w-full flex flex-col bg-black md:px-40 px-8 md:py-28 py-12 gap-y-8"
-    >
+    <div class="footer w-full flex flex-col bg-black md:px-40 px-8 md:py-28 py-12 gap-y-8">
       <div class="w-full gap-y-8 flex flex-row flex-wrap">
         <div class="w-full md:w-5/12 md:pr-8">
           <div class="wrapper flex flex-col gap-y-3">
@@ -85,86 +194,31 @@
               class="bg-no-repeat h-6 w-full bg-center md:bg-left"
               style="background-image: url('./assets/img/logo-footer.svg')"
             ></div>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              We are a residential interior design firm located in Portland. Our
-              boutique-studio offers more than
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">
+              We are a residential interior design firm located in Portland. Our boutique-studio offers more than
             </p>
           </div>
         </div>
         <div class="w-full md:w-3/12 md:pr-8">
           <div class="wrapper flex flex-col gap-y-3">
-            <p class="text-center md:text-start text-white font-semibold">
-              Services
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Bonus program
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Gift cards
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Credit and payment
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Service contracts
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Non-cash account
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Payment
-            </p>
+            <p class="text-center md:text-start text-white font-semibold">Services</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Bonus program</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Gift cards</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Credit and payment</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Service contracts</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Non-cash account</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Payment</p>
           </div>
         </div>
         <div class="w-full md:w-4/12">
           <div class="wrapper flex flex-col gap-y-3">
-            <p class="text-center md:text-start text-white font-semibold">
-              Assistance to the buyer
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Find an order
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Terms of delivery
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Exchange and return of goods
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Guarantee
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Frequently asked questions
-            </p>
-            <p
-              class="text-center md:text-start text-[#CFCFCF] font-medium text-sm"
-            >
-              Terms of use of the site
-            </p>
+            <p class="text-center md:text-start text-white font-semibold">Assistance to the buyer</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Find an order</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Terms of delivery</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Exchange and return of goods</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Guarantee</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Frequently asked questions</p>
+            <p class="text-center md:text-start text-[#CFCFCF] font-medium text-sm">Terms of use of the site</p>
           </div>
         </div>
       </div>
